@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url("https://storage.googleapis.com/mgce_submissions/bg.png") no-repeat;
+  background-size: cover;
+}
+
+.konten {
+  width: 500px;
+  background: rgba(0, 0, 0, 0.9);
+  color: #E2E2E2;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 20px;
+  font-family: "Open Sans";
+}
+
+.foto {
+  width: 250px;
+  border-radius: 50%;
+}
+
+p {
+  letter-spacing: 1px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+  margin: 5px;
+  background-color: #04AA6D;
+  padding: 5px;
+  border-radius: 5px;
+
+  transition: background-color .5s ease-in;
+}
+
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+li:hover {
+  background-color: #0000ff;
+}
